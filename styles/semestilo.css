@@ -1,0 +1,39 @@
+@import url("http://fonts.googleapis.com/css?family=Dancing+Script");
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li a:hover {
+    background: #ef8354;
+}
+
+h2 {
+    display: inline-block;
+    position: relative;
+    color: orange;
+    font-family: "Dancing Script", cursive;
+}
+
+.code-container {
+    width: 30%;
+    border-right: solid 3px green;
+    background-color: white;
+}
